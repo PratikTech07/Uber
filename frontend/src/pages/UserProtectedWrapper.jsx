@@ -37,7 +37,7 @@ const UserProtectedWrapper = ({children}) => {
         });
     }, [token, navigate, setUser]);
     
-    console.log(user)
+    
     if (isLoading) {
         return <div>Loading...</div>;
       
